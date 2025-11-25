@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Tailwind v4 theme tokens -> creates font-* utilities */
+@theme {
+  /* Set your global sans to Plus Jakarta Sans (fallback to Manrope) */
+  --font-sans: "Plus Jakarta Sans", "Manrope", ui-sans-serif, system-ui,
+    -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* Extra font utilities you can use directly: font-jakarta, font-manrope, font-lobster */
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+  --font-lobster: "Lobster Two", cursive;
+}
